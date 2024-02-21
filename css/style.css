@@ -22,7 +22,7 @@ body{
 @keyframes glow{
     0%, 100%{
         color: #fff;
-        text-shadow: 0 0 12px #e02ae0, 0 0 50px #e02ae0, 0 0 100px #e02ae0;
+        text-shadow: 0 0 12px #39c6d6, 0 0 50px #39c6d6, 0 0 100px #39c6d6;
     }
     10%, 90%{
         color: #111;
@@ -50,7 +50,9 @@ body{
 .greetings > span:nth-child(8){
     animation-delay: .14s;
 }
-
+.greetings > span:nth-child(9){
+    animation-delay: .16s;
+}
 
 .description{
     font-size: 1.5rem;
