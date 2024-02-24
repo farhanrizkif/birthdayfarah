@@ -9,6 +9,13 @@
     <title>Flowers</title>
 </head>
 <body>
+
+    <!-- Memainkan musik secara otomatis -->
+    <audio autoplay>
+        <source src="love.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
     <div class="greetings">
         <!-- silahkan menambah kata sesuai keinginan dengan <span>text...</span -->
         <span>H</span>
@@ -25,17 +32,10 @@
         <span>Aku ada hadiah spesial buat kamu!!</span>
     </div>
     <div class="button">
-        <button id="playMusicButton">
+        <button>
             <a href="flower.html">Klik disini</a>
         </button>
     </div>
     
-    <!-- Script untuk memainkan musik saat tombol diklik -->
-    <script>
-        document.getElementById('playMusicButton').addEventListener('click', function() {
-            var audio = new Audio('love.mp3');
-            audio.play();
-        });
-    </script>
 </body>
 </html>
